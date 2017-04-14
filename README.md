@@ -10,13 +10,10 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Description of your Plugin
+This plugin allows Jarvis launch at startup and monitoring for systemd distributions (Debian 8+, Raspbian 8+, ArchLinux, ...)
 
 ## Usage
-```
-You: example of how to trigger the command
-Jarvis: output from Jarvis
-```
+No commands are added
 
 ## Author
-[your name](http://your.website)
+[Oliv4945](https://iopush.net)
