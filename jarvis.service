@@ -1,0 +1,14 @@
+[Unit]
+Description=Jarvis
+After=syslog.target
+
+[Service]
+User=USERNAME
+Type=simple
+PIDFile=/var/run/jarvis.pid
+ExecStart=PATH_TO_JARVIS/jarvis.sh -n
+ExecStop=PATH_TO_JARVIS/jarvis.sh -q
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
