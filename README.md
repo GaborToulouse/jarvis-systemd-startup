@@ -14,7 +14,7 @@ This plugin allows Jarvis launch at startup and monitoring for systemd distribut
 
 ## Usage
 Once Jarvis is started by `systemd`, you can:
-- See Jarvis output thanks to `sudo journalctl -u jarvis.service`
+- See Jarvis output thanks to `sudo journalctl -f -u jarvis.service`
 - Stop Jarvis thanks to `sudo service jarvis stop` or `jarvis.sh -q`
 - Start Jarvis again thanks to `sudo service jarvis restart`
 
