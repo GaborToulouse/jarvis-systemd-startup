@@ -13,5 +13,6 @@ sudo sed -i "s!PATH_TO_JARVIS!$jv_dir!" $systemd_path$service_filename
 sudo sed -i "s!USERNAME!$username!" $systemd_path$service_filename
 
 # Reload Systemd
+systemctl enable systemd-networkd-wait-online.service
 sudo systemctl daemon-reload
 sudo service jarvis restart

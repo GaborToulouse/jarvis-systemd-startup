@@ -1,6 +1,7 @@
 [Unit]
 Description=Jarvis
-After=syslog.target
+After=syslog.target network-online.target networking.service
+Wants=network-online.target networking.service
 
 [Service]
 User=USERNAME
